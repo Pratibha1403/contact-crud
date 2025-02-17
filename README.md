@@ -16,7 +16,7 @@ Simple CRUD application with xml import functionality.
 
 1. Clone the repository:
 
-   ```bash
+```bash
    git clone https://github.com/your-username/your-repo.git
    cd your-repo
 
@@ -24,3 +24,38 @@ Simple CRUD application with xml import functionality.
 
 ```bash
 composer install --no-dev --optimize-autoloader
+Install Node.js dependencies (if the project includes a frontend built with Laravel Mix):
+
+bash
+Copy
+Edit
+npm install
+Copy the .env.example file to .env:
+
+bash
+Copy
+Edit
+cp .env.example .env
+Environment Setup
+Open the .env file and configure the following environment variables:
+
+APP_NAME: Your application name.
+APP_ENV: Set to local for development, production for live.
+APP_KEY: Run php artisan key:generate to generate a new key.
+DB_CONNECTION: Set to your preferred database type (mysql, pgsql, sqlite, etc.).
+DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME, DB_PASSWORD: Your database connection credentials.
+Generate an application key:
+
+bash
+Copy
+Edit
+php artisan key:generate
+Database Setup
+Create your database in your preferred database management system.
+
+Run database migrations to create the necessary tables:
+
+bash
+Copy
+Edit
+php artisan migrate
