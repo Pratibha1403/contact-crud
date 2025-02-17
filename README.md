@@ -1,7 +1,7 @@
 # Laravel Project Name
 
 ## Description
-Briefly describe what your project does, its features, and any key information about the project.
+Simple CRUD application with xml import functionality.
 
 ## Table of Contents
 1. [Installation](#installation)
@@ -19,3 +19,8 @@ Briefly describe what your project does, its features, and any key information a
    ```bash
    git clone https://github.com/your-username/your-repo.git
    cd your-repo
+
+2.Install Composer dependencies:
+
+```bash
+composer install --no-dev --optimize-autoloader
