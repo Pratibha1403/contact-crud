@@ -24,9 +24,9 @@ Simple CRUD application with xml import functionality.
 
     
     composer install --no-dev --optimize-autoloader
-    Install Node.js dependencies (if the project includes a frontend built with Laravel Mix):
+3.Install Node.js dependencies (if the project includes a frontend built with Laravel Mix):
 
-    ```bash
+    
     npm install
 
 4.Copy the .env.example file to .env:
