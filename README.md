@@ -23,16 +23,16 @@ Simple CRUD application with xml import functionality.
 2.Install Composer dependencies:
 
     ```bash
-composer install --no-dev --optimize-autoloader
-Install Node.js dependencies (if the project includes a frontend built with Laravel Mix):
+    composer install --no-dev --optimize-autoloader
+    Install Node.js dependencies (if the project includes a frontend built with Laravel Mix):
 
     ```bash
-npm install
+    npm install
 
 4.Copy the .env.example file to .env:
 
     ```bash
-cp .env.example .env
+    cp .env.example .env
 
 5.Environment Setup
 Open the .env file and configure the following environment variables:
@@ -44,19 +44,19 @@ DB_CONNECTION: Set to your preferred database type (mysql, pgsql, sqlite, etc.).
 DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME, DB_PASSWORD: Your database connection credentials.
 Generate an application key:
 
-```bash
-php artisan key:generate
+    ```bash
+    php artisan key:generate
 
 6.Database Setup
 Create your database in your preferred database management system.
 
 Run database migrations to create the necessary tables:
 
-```bash
-php artisan migrate
+    ```bash
+    php artisan migrate
 
 7.Running the Application Locally
 To run the application locally, you can use Laravel's built-in development server:
 
-```bash
-php artisan serve
+    ```bash
+    php artisan serve
