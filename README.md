@@ -22,7 +22,7 @@ Simple CRUD application with xml import functionality.
 
 2.Install Composer dependencies:
 
-    ```bash
+     ```bash
     composer install --no-dev --optimize-autoloader
     Install Node.js dependencies (if the project includes a frontend built with Laravel Mix):
 
