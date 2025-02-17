@@ -16,22 +16,22 @@ Simple CRUD application with xml import functionality.
 
 1. Clone the repository:
 
-```bash
+    ```bash
    git clone https://github.com/your-username/your-repo.git
    cd your-repo
 
 2.Install Composer dependencies:
 
-```bash
+    ```bash
 composer install --no-dev --optimize-autoloader
 Install Node.js dependencies (if the project includes a frontend built with Laravel Mix):
 
-```bash
+    ```bash
 npm install
 
 4.Copy the .env.example file to .env:
 
-```bash
+    ```bash
 cp .env.example .env
 
 5.Environment Setup
