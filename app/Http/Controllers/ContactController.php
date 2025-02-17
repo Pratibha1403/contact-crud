@@ -88,6 +88,7 @@ class ContactController extends Controller
         $xml = simplexml_load_file($request->file('xml_file')->getRealPath());
         // dd($xml);
         foreach($xml->contact as $contact){
+            
             Contact::create([
                 'name' => (string)$contact->name,
                 'phone' => (string)$contact->phone,
